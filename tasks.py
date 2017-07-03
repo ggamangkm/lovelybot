@@ -29,7 +29,6 @@ def echo_response(message):
 
     for sentiment_analysis in obj['documents']:
         sentiment_scores.append(str(sentiment_analysis['score']))
-        print('Sentiment score: ' + str(obj['Score']))
 
     message1 = sentiment_scores
 
