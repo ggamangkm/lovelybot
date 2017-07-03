@@ -10,7 +10,7 @@ def echo_response(message):
 
     base_url1 = 'https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment'
 
-    headers = {'Content-Type':'application/json', 'Ocp-Apim-Subscription-Key':account_key2}
+    headers = {'Content-Type':'text/json', 'Ocp-Apim-Subscription-Key':account_key2}
     sentiment_scores = []
 
     inputtxt2json = '{"documents":['
