@@ -15,7 +15,7 @@ def echo_response(message):
 
     inputtxt2json = '{"documents":['
 
-    inputtxt = '{"language":"en",'
+    inputtxt = '{"language":"string",'
     inputtxt = inputtxt + '"id":"1"'
     inputtxt = inputtxt + '"text":' + message
 
