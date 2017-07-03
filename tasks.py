@@ -26,7 +26,7 @@ def echo_response(message):
 
     inputtxt2json = inputtxt + ']}'
 
-    print (inputtxt2json)
+    #print (inputtxt2json)
 
 
     # Detect sentiment
